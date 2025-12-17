@@ -1,0 +1,29 @@
+{
+  "name": "charity-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -b -v",
+    "start": "npx tsc -b -v && node dist/app.js",
+    "dev": "npx nodemon -e .js,.ts -w src/ --exec npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "@types/node-fetch": "^2.6.13",
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "socket.io": "^4.8.1"
+  }
+}
