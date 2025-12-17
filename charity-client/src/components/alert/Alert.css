@@ -1,0 +1,25 @@
+.Alert {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 20%;
+    height: 50%;
+    text-align: center;
+    color: #ee1c09;
+    text-shadow: 2px 2px 3px #000, -1px -1px 8px #000, 1px 1px 8px #000;
+    font-weight: bold;
+}
+
+.Alert img {
+    width: 25%;
+}
+
+.Alert p {
+    font-size: 2em;
+    padding: 0px;
+    margin: 0.3em;
+}
+
+.Alert p b {
+    font-size: 1.5em;
+}

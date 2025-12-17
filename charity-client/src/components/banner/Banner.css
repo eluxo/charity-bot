@@ -1,0 +1,57 @@
+.Banner {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 25%;
+    background-image: url('/public/bannera.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    text-align: center;
+    text-wrap: nowrap;
+    white-space: nowrap;
+    text-shadow: 2px 2px 3px #000, 0px 0px 6px #000;
+    color: #f7eedc;
+}
+
+.BannerBox {
+    overflow: hidden;
+    display: inline-block;
+    width: 25%;
+    max-height: 25%;
+    margin-top: 3%;
+    padding: 0px;
+    line-break: unset;
+    vertical-align: top;
+}
+
+.BannerBox h1 {
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 0px 0px 3px 0px;
+
+}
+
+.BannerBox p {
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px 30px 0px 30px;
+}
+
+.BannerCenter {
+    margin-top: 2.5%;
+}
+
+.BannerLeft {
+    transform: rotate(-4.3deg);
+}
+
+.BannerRight {
+    transform: rotate(4.3deg);
+}
+
+.RaisedFund {
+    padding-top: 0.15em !important;
+    font-size: 1.5em !important;
+}
