@@ -1,0 +1,9 @@
+/charity-client/.idea/
+/charity-clieht/node_modules/
+
+/charity-server/.env
+/charity-server/.idea/
+/charity-server/dist/
+/charity-server/node_modules/
+/charity-server/tsconfig.tsbuildinfo
+
